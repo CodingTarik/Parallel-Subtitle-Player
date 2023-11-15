@@ -57,6 +57,11 @@ const NavBar: React.FC = () => {
           >
             Parallel Subtitle Player
           </Typography>
+          <div style={{ margin: "5px", marginTop: "5px" }}>
+            <Link color="inherit" href="https://codingtarik.github.io">
+              Blog
+            </Link>
+          </div>
           <Tooltip title={`GitHub Stars: ${starsCount}`} arrow>
             <Link
               href="https://github.com/CodingTarik/Parallel-Subtitle-Player"
@@ -83,9 +88,14 @@ const NavBar: React.FC = () => {
         <DialogContent>
           {/* Add your imprint information here */}
           <Typography>
-            Angaben gemäß § 5 TMG <br /> Tarik Azzouzi<br /> Nieder-Ramstädter-Straße 187<br />
-            64285 Darmstadt<br /> Kontakt <br />Telefon: +49 1590 2299884 <br />E-Mail:
-            BlogCodingTarik@web.de <br />Quelle: https://www.e-recht24.de
+            Angaben gemäß § 5 TMG <br /> Tarik Azzouzi
+            <br /> Nieder-Ramstädter-Straße 187
+            <br />
+            64285 Darmstadt
+            <br /> Kontakt <br />
+            Telefon: +49 1590 2299884 <br />
+            E-Mail: BlogCodingTarik@web.de <br />
+            Quelle: https://www.e-recht24.de
           </Typography>
         </DialogContent>
         <DialogActions>
