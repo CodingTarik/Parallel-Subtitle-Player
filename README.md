@@ -1,5 +1,6 @@
 # ParallelSubtitlePlayer
 
+![](preview.png)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
@@ -20,7 +21,7 @@ You can just access it with this URL:
 
 ## Contributing
 
-We welcome contributions! If you would like to contribute to ParallelSubtitlePlayer, please follow our [contribution guidelines](CONTRIBUTING.md).
+We welcome contributions! If you would like to contribute to ParallelSubtitlePlayer, please follow our [contribution guidelines](CONTRIBUTE.md).
 
 ## License
 
