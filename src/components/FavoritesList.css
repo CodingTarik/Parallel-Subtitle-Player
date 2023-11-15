@@ -1,0 +1,43 @@
+.favorite-box {
+  position: relative;
+}
+
+.favorite-overlay {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0); /* Transparent beim Laden */
+  transition: background-color 0.3s ease; /* Animierter Übergang */
+}
+
+.favorite-box:hover .favorite-overlay {
+  background-color: rgba(0, 0, 0, 0.3); /* Dunkleres Overlay beim Hover */
+}
+
+.favorite-delete {
+  z-index: 3;
+  position: relative;
+}
+
+/* FavoritesList.css */
+.favorite-list {
+  overflow-y: auto; /* Enable vertical scrollbar if needed */
+  /* Custom scrollbar styles */
+  scrollbar-width: thin;
+  scrollbar-color: #999999 #f0f0f0;
+}
+
+.favorite-list::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+.favorite-list::-webkit-scrollbar-thumb {
+  background-color: #999999; /* Color of the scrollbar thumb */
+}
+
+.favorite-list::-webkit-scrollbar-track {
+  background-color: #f0f0f0; /* Color of the scrollbar track */
+}
