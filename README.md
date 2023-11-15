@@ -17,7 +17,7 @@ ParallelSubtitlePlayer is a web application designed to enhance language learnin
 
 ## Getting Started
 
-You can just access it with this URL: ![https://codingtarik.github.io/subtitle.html](https://codingtarik.github.io/subtitle.html)
+You can just access it with this URL: [https://codingtarik.github.io/subtitle.html](https://codingtarik.github.io/subtitle.html)
 
 ## Contributing
 
